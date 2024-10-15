@@ -240,7 +240,7 @@ var main = function(){
                                 $('form#frm_simpul input[name="id"]').val(id);
                                 $('form#frm_simpul textarea[name="simpul"]').val(obj.simpul);
                                 $('form#frm_simpul textarea[name="saran"]').val(obj.saran);
-                                $('form#frm_simpul #lbl_jdl_aspek').html(obj.nmaspek);
+                                $('form#frm_simpul .lbl_jdl_aspek').html(obj.nmaspek);
 
                                 $("#mdl_simpul").modal("show");
                                 loading.hide();
@@ -412,7 +412,7 @@ var main = function(){
                                     $('form#frm_simpul input[name="id"]').val(obj.idrsme);
                                     $('form#frm_simpul textarea[name="simpul"]').val(obj.val_ksmpln);
                                     $('form#frm_simpul textarea[name="saran"]').val(obj.val_saran);
-                                    $('form#frm_simpul #lbl_jdl_aspek').html(obj.nmaspek);
+                                    $('form#frm_simpul .lbl_jdl_aspek').html(obj.nmaspek);
                                     
                                     $("#mdl_simpul").modal("show");
                                 }
@@ -474,6 +474,9 @@ var main = function(){
             }
             else if(_reload=='prov'){
                 g_wilayah();
+            }
+            else if(_reload=='wilapen'){
+                g_progres();
             }
             goToMessage(last_trgt);
         });
@@ -795,6 +798,62 @@ var main = function(){
                 return false;
             }
         });
+
+        function g_progres(){
+            //var kate = $("#inp_kate_wlyh").val();
+            loading.show();
+            ajax_url = controller+"/g_progres";
+            ajax_data="csrf_name="+$("#csrf").val();
+            jQuery.ajax({
+                type: "POST",
+                url: base_url+ajax_url,
+                dataType:"text",
+                data:ajax_data,
+                success:function(response){
+                    var obj = null;
+                    try
+                    {
+                        obj = $.parseJSON(response);  
+                    }catch(e)
+                    {}
+
+                    if(obj)
+                    {
+                        $("#csrf").val(obj.csrf_hash);
+                        if(obj.status === 1){
+                            $("#p_prov").html(obj.strPro);
+                            $("#p_kab").html(obj.strKab);
+                            $("#p_kot").html(obj.strKot);
+                            loading.hide();
+                        }
+                        else if(obj.status === 0){
+                            loading.hide();
+                            sweetAlert("Error", obj.msg, "error");
+                        }
+                        else if(obj.status === 2){
+                            sweetAlert("Caution", obj.msg, "warning");
+                            window.setTimeout(function(){
+                                window.location.href = base_url+"welcome";
+                            }, 2000);
+                        }
+
+                    }
+                    else{
+                        sweetAlert("Caution", response, "error");
+                        loading.hide();
+                        window.setTimeout(function(){
+                            window.location.href = base_url+"welcome";
+                        }, 2000);
+                        return false;
+                    }
+                },
+                error:function (xhr, ajaxOptions, thrownError){
+                    loading.hide(); 
+                    alert(thrownError);
+                    return false;
+                }
+            });
+        }g_progres();
         
     };
     var general = function(){

@@ -97,7 +97,7 @@
                                     <th class="" title="No Urut">NO</th>
                                     <th class="text-uppercase">NAMA Sub Indikator</th>
                                     <th class="text-uppercase">Tampilkan</th>
-                                    <th class="text-uppercase">Hanya Tag Provinsi</th>
+                                    <th class="text-uppercase">Tag Di</th>
                                     <th class="">#AKSI</th>
                                 </tr>
 
@@ -370,13 +370,26 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <!-- <div class="col-md-4">
                             <div class="form-group">
                                 <label for="field-4" class="control-label">Hanya Tag di Provinsi? <span class="text-danger">*</span></label>
                                 <select class="form-control" id="field-4" required="" name="tag_prov">
                                     <option value="">- Pilih -</option>
                                     <option value="Y">Ya</option>
                                     <option value="N">Tidak</option>
+                                </select>
+                            </div>
+                        </div> -->
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="field-4" class="control-label">Tag Di? <span class="text-danger">*</span></label>
+                                <select class="form-control" id="field-4" required="" name="tag_prov">
+                                    <option value="">- Pilih -</option>
+                                    <option value="ALL">Semua</option>
+                                    <option value="PROV">Provinsi</option>
+                                    <option value="KOTKAB">Kota dan Kabupaten</option>
+                                    <option value="KOT">Kota</option>
+                                    <option value="KAB">Kabupaten</option>
                                 </select>
                             </div>
                         </div>
@@ -431,13 +444,26 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <!-- <div class="col-md-3">
                             <div class="form-group">
                                 <label for="field-4" class="control-label">Hanya Tag di Provinsi? <span class="text-danger">*</span></label>
                                 <select class="form-control" id="field-4" required="" name="tag_prov">
                                     <option value="">- Pilih -</option>
                                     <option value="Y">Ya</option>
                                     <option value="N">Tidak</option>
+                                </select>
+                            </div>
+                        </div> -->
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label for="field-4" class="control-label">Tag Di? <span class="text-danger">*</span></label>
+                                <select class="form-control" id="field-4" required="" name="tag_prov">
+                                    <option value="">- Pilih -</option>
+                                    <option value="ALL">Semua</option>
+                                    <option value="PROV">Provinsi</option>
+                                    <option value="KOTKAB">Kota dan Kabupaten</option>
+                                    <option value="KOT">Kota</option>
+                                    <option value="KAB">Kabupaten</option>
                                 </select>
                             </div>
                         </div>

@@ -476,6 +476,7 @@ $config['csrf_exclude_uris'] = array(
     "Pencapaian_indikator/kab_datatable",
     "Pencapaian_indikator/detail_get",
     "PPD2_modul1/g_progres",
+    "PPD7_modul1/g_progres",
     "PPD3_modul2/g_progres",
     "PPD3_modul3/g_progres",
 
