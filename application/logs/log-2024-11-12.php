@@ -1,0 +1,37 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2024-11-12 09:28:31 --> 404 Page Not Found: Package/css
+ERROR - 2024-11-12 09:28:39 --> 404 Page Not Found: Package/css
+ERROR - 2024-11-12 09:29:13 --> 404 Page Not Found: Assets/video_tutorial_3
+ERROR - 2024-11-12 09:31:43 --> 404 Page Not Found: Attachments/bahandukung
+ERROR - 2024-11-12 09:31:49 --> 404 Page Not Found: Attachments/bahandukung
+ERROR - 2024-11-12 10:05:15 --> 404 Page Not Found: Package/css
+ERROR - 2024-11-12 10:06:35 --> 404 Page Not Found: Package/css
+ERROR - 2024-11-12 10:06:44 --> 404 Page Not Found: Assets/video_tutorial_3
+ERROR - 2024-11-12 10:06:44 --> 404 Page Not Found: Assets/video_tutorial_3
+ERROR - 2024-11-12 10:06:44 --> 404 Page Not Found: Assets/video_tutorial_3
+ERROR - 2024-11-12 10:06:44 --> 404 Page Not Found: Assets/video_tutorial_3
+ERROR - 2024-11-12 10:06:44 --> 404 Page Not Found: Assets/video_tutorial_3
+ERROR - 2024-11-12 10:36:19 --> 404 Page Not Found: Assets/video_tutorial_3
+ERROR - 2024-11-12 11:30:32 --> 404 Page Not Found: Package/css
+ERROR - 2024-11-12 11:30:39 --> 404 Page Not Found: Assets/video_tutorial_3
+ERROR - 2024-11-12 11:30:56 --> 404 Page Not Found: Package/css
+ERROR - 2024-11-12 11:31:22 --> 404 Page Not Found: Package/css
+ERROR - 2024-11-12 11:31:47 --> 404 Page Not Found: Assets/video_tutorial_3
+ERROR - 2024-11-12 11:31:58 --> 404 Page Not Found: Package/css
+ERROR - 2024-11-12 11:32:56 --> 404 Page Not Found: Assets/video_tutorial_3
+ERROR - 2024-11-12 11:32:56 --> 404 Page Not Found: Assets/video_tutorial_3
+ERROR - 2024-11-12 11:32:56 --> 404 Page Not Found: Assets/video_tutorial_3
+ERROR - 2024-11-12 11:33:14 --> 404 Page Not Found: Package/css
+ERROR - 2024-11-12 11:34:15 --> 404 Page Not Found: Assets/video_tutorial_3
+ERROR - 2024-11-12 11:34:15 --> 404 Page Not Found: Assets/video_tutorial_3
+ERROR - 2024-11-12 11:34:15 --> 404 Page Not Found: Assets/video_tutorial_3
+ERROR - 2024-11-12 11:34:15 --> 404 Page Not Found: Assets/video_tutorial_3
+ERROR - 2024-11-12 11:34:15 --> 404 Page Not Found: Assets/video_tutorial_3
+ERROR - 2024-11-12 11:34:25 --> 404 Page Not Found: Package/css
+ERROR - 2024-11-12 11:35:46 --> 404 Page Not Found: Assets/js
+ERROR - 2024-11-12 11:35:47 --> 404 Page Not Found: Assets/js
+ERROR - 2024-11-12 15:48:02 --> 404 Page Not Found: Package/css
+ERROR - 2024-11-12 15:48:11 --> 404 Page Not Found: Assets/video_tutorial_3
+ERROR - 2024-11-12 15:48:11 --> 404 Page Not Found: Assets/video_tutorial_3
+ERROR - 2024-11-12 15:48:11 --> 404 Page Not Found: Assets/video_tutorial_3
